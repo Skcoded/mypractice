@@ -1,0 +1,314 @@
+*{ margin: 0; padding: 0; 
+   box-sizing: border-box;
+}
+body{ background-color: rgb(191, 184, 184);
+}
+.container{ background-color: rgb(247, 240, 240); margin:50px 100px;
+            height:3000px;
+}
+.mini1{ display: flex;  background-color: white; 
+        height: 100px; align-items: center;
+}
+.img1{ width: 50px; height: 50px; margin-left: 50px;
+}
+.img2{ width: 35px; height: 35px; margin-left: 50px;
+}
+.img3{ width: 35px; height: 35px; margin-left: 30px;
+}
+h3{ margin-left: 50px; font-size: 30px;
+}
+h3>span{ color: red;
+}
+h3+span{ font-weight: bold; margin-left: 50px;
+}
+a{ color: black; text-decoration: none; padding-left: 30px; 
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+button.contact{ background-color: red; font-weight: bold; color: white;
+                padding:10px 30px; border: none; outline: none; margin-left: 50px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{ background-color: white; border-color: white; margin-left: 40px;
+}
+#language{ background-color: white; outline: none;border: none;
+           font-size: 15px;
+}
+.mini2{ background-image: url(img/dinningset.png); position: relative;
+        background-repeat: no-repeat; background-position:center;
+        background-size:cover; height:600px;
+}
+.mini2::before{ content:""; position: absolute; width: 100%; height: 600px; 
+                background-color: rgba(25, 24, 26, 0.743);
+}
+.overlay{ position: absolute;  padding: 100px 250px;
+}
+h2{ color: white; font-size: 50px; font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2; text-align: center;
+}
+h2+p{ color: white;  margin-top: 30px; font-size: 20px; margin-left: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shopnow{ background-color: red; color: white; font-weight: bold;
+          outline: none; border: none; padding:15px 50px; margin-top: 40px;
+          font-size: 20px; margin-left: 210px;
+}
+.fig1{ display:flex; text-align: center; padding-left: 120px;
+       margin-top:30px;
+}
+.fig1 p{ color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 20px; margin-top: 20px; margin-left: 10px;
+}
+.starspan{ font-weight: bold;
+}
+.fig1 img{ width: 30px; height: 30px; position:relative; top: 20px;
+}
+figure+img{ width: 3px; height: 200px; position: absolute; top: 100px;
+            left: 200px; border-radius: 10px;
+}
+.vector4{ width: 3px; height:40px; position: absolute;
+          top: 245px; left: 200px;
+}
+.morethan{ color: white;transform: rotate(-90deg)  scale(.9); font-weight: bold;
+           position: absolute; bottom: 120px; left: 105px; font-size: 20px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mini3{ background-color: #0E0E0E; margin-top: 10px;
+        height: 250px; padding-left: 50px;
+}
+.mini3 form{ width: 300px;
+}
+.form2{ margin-left: 80px;
+}
+.form3{ margin-left: 80px;
+} 
+.form1{ margin-left: 50px;
+}
+.whyus{ margin-top: 20px; padding: 10px;
+}
+a.learnmore{ font-size: 15px; margin-left: -30px; position: relative;
+             top: 20px;
+}
+.pwhyus{ color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 30px; margin-top: 20px; margin-left: 50px;
+}
+.whyus img{ width: 100px; height: 20px; position:relative;
+            top:-26px; left: 170px;
+}
+.fig2 img{ width: 50px; height:50px; background-color: tomato;
+           border-radius: 50%; padding:10px 10px; position: relative;
+           left: -10px; top:-10px;
+}
+.fig2{ display: flex;
+}
+form{ color: white; margin-right: 90px; font-size: 15px;
+      margin-top: 10px; margin-bottom: 30px;
+}
+h4{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position: relative; top:-50px; left:50px; font-size: 20px;
+}
+h4+p{ color: rgb(181, 176, 176); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top:-30px;
+}
+p>a{ color: rgb(175, 171, 171);
+}
+.mini4{ display: flex; margin: auto 20px;
+        padding-left: 80px; padding-top: 30px;
+}
+.min4 form{ width: 150px;
+}
+.paboutus{ color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           padding-top:10px; font-weight: bold; font-size: 30px;
+}
+.form4>img{ width: 90px; height: 20px; position:relative;
+            top: -25px; left: 135px;
+}
+.form5 img{ width: 500px; height:300px;
+            position: relative; right: -50px;
+}
+h5{ font-size: 23px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+h5>span{ color: red; 
+}
+h5+p{ color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight:bold; margin-top: 10px; font-size: 15px; margin-top: 20px;
+}
+button.explore{ background-color: black; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 10px 70px; font-weight: bold; margin-top: 50px;
+}
+.mini5{ margin: auto 50px; } .fig3{padding-left: 50px;
+        margin-top: 30px;
+}
+.fig3 p{ color: rgb(44, 41, 41); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: 30px; font-weight: bold;
+}
+.fig3 img{ width: 90px; height: 20px; position:relative;
+           top: -25px; left: 150px;
+}
+.form5 p{ color: black; font-size:25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-weight: bold;
+}
+.form5{ display: flex; justify-content: space-between;
+        margin-left: 50px;
+}
+#furnitures{ border-color: rgb(154, 148, 148); color:rgb(154, 148, 148);
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 15px;
+}
+.dinning>img{ width:270px; height:170px;
+}
+.dinning{ padding: 15px 2px;
+}
+.fig4{ display: flex;
+}
+.products{ display: flex; margin-left: 50px;
+}
+.price{ color: red; font-weight: bold; margin-left: 70px; margin-top: 5px;
+        font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dini1{ color: black; font-size: 15px; margin-left: 8px; 
+        margin-top: 5px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+}
+.products form{ width:500px; height:300px; background-color: white; text-align: center;
+                padding: auto 10px; margin-right: 30px;
+}
+button.addcart{ background-color: black; color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding: 10px 100px; font-weight: bold; position: relative; top:-10px;
+}
+.fig4+img{ width: 20px; height:20px; position: relative;
+           top: 5px; left: -130px;
+}
+.rate{ font-size:15px; color: black; position: relative;
+       top: -20px; left:-60px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.rate>span{ font-weight: bold;
+}
+.bed{ padding: 15px 2px; margin-left: 10px;
+}
+.bed>img{ width:270px; height:170px;
+}
+.fig5+img{ width: 20px; height:20px; position: relative;
+           top: 5px; left: -130px;
+}
+.bedprice{ color: red; font-weight: bold; margin-left:220px; 
+           font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           margin-top: -20px;
+}
+.bedframe{ color: black; font-size: 15px; margin-left: -150px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;
+}
+.chuzresofa{padding: 15px 2px;
+}
+.chuzresofa>img{ width:270px; height:170px;
+}
+.sofaprice{ color: red; font-weight: bold; margin-left:220px;
+            font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: -20px;
+}
+.fig6+img{ width: 20px; height:20px; position: relative;
+           top:5px; left: -130px;
+}
+.chuzresofaa{ color: black; font-size: 15px; margin-left: -160px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              font-weight: bold;
+}
+.productss{ display: flex; margin-left: 50px;
+}
+.productss>form{ width:500px; height:300px; background-color: white; 
+                 text-align: center; padding: auto 10px; margin-right: 30px;
+}
+.sittingsofa{ padding: 15px 2px;
+}
+.sittingsofa>img{width:270px; height:170px;
+}
+.ssofa{ color: black; font-size: 15px; margin-left: -110px; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+}
+.sittingprice{ color: red; font-weight: bold; margin-left:220px;
+               font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               margin-top: -18px;
+}
+.fig7+img{ width: 20px; height:20px; position: relative;
+           top:5px; left: -130px;
+}
+.officechair{ padding: 15px 2px;
+}
+.officechair>img{ width:200px; height:170px;
+}
+.offchair{ color: black; font-size: 15px; margin-left: -150px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           font-weight: bold;
+}
+.chairprice{ color: red; font-weight: bold; margin-left:220px; 
+             font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             margin-top: -18px;
+}
+.fig8+img{ width: 20px; height:20px; position: relative;
+           top:5px; left: -130px;
+}
+.stool{ padding: 15px 2px;
+}
+.stool>img{ width:270px; height:170px;
+}
+.stooll{ color: black; font-size: 15px; margin-left: -150px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;
+}
+.stoolprice{ color: red; font-weight: bold; margin-left:220px; 
+             font-size: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             margin-top: -18px;
+}
+.fig9+img{ width: 20px; height:20px; position: relative; top:5px; left: -130px;
+}
+button.seemore{ background-color: red; border: none; 
+                outline: none; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: bold; padding: 20px 100px; margin-left: 450px;
+                margin-top: 20px; font-size: 15px;
+}
+.mini6{ background-color: black; display: flex;
+        margin-top: 40px;
+}
+.weproduce{width: 30%; margin-left: 90px;
+}
+.vector6{ width: 220px; margin-top: 50px;
+}
+.extraordinary{ color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 50px;
+}
+.extraordinary>span{ font-weight: bold;
+}
+.chair{ width: 500px; height: 270px; 
+        margin-top: 50px; margin-left: 55px;
+}
+.vector1{ width: 220px; position: relative; left: 320px; bottom: 40px;
+}
+.vector7{ width: 700px; height: 3px; margin-top: 50px; margin-left: 200px;
+}
+ul{ list-style: none; margin-left: 20px; margin-top: 30px;
+}
+li>a{ text-decoration: none; font-size: 15px;
+      font-weight: 500; margin-left: 135px;
+}
+li{ display: inline-block;
+}
+.lastp{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center; margin-top: 30px; font-size: 20px;
+}
+.lastpp{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         text-align: center; margin-top: 30px;
+         color: rgb(177, 173, 173); font-size: 15px;
+}
+ol{ text-align: center; margin-left: -50px;
+    margin-top: 20px; margin-bottom: 200px;
+}
+ol>li{ display: inline-block;
+}
+ol a{ margin-left: 30px;
+}
+li img{width: 70px;
+}
+
